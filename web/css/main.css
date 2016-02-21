@@ -1,21 +1,87 @@
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
+  /*font-size: 100%;*/
+}
+
+* {
+margin: 0;
+padding: 0;
 }
 
 body {
-  color: #312C32;
+  color: #55585D;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   /*font-weight: 300;
   letter-spacing: 0.01em;
   line-height: 1.6;*/
-  background-color: #ffffff; /*EDEDED*/
+  background-color: #F6F7FB;
+}
+
+a:link {
+    color: none;
+    text-decoration: none;
+}
+
+a:visited {
+    color: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: none;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+.main-logo{
+  position: absolute;
+  margin: 22px 0 0 32px;
+  font-weight: 100;
+  font-size: 27px;
+  color: #FFFFFF;
 }
 
 /*RESPONSIVE EXAMPLE*/
-/*@media screen and (max-width: 450px){
+@media screen and (max-width: 450px){
   body{
-    background-color: red;
+    /*background-color: red;*/
   }
-}*/
+
+  #header{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: #55585D;
+  }
+
+  .settings{
+    position: absolute;
+    right: 0px;
+    width: 80px;
+    height: 80px;
+    background-color: #4E5256;
+    background-image: url("../img/settings-logox1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .new-training-button{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 43px;
+    font-size: 17px;
+    padding: 22px 0 0 140px;
+    background-color: #D44845;
+    color: #ffffff;
+    font-weight: 300;
+    background-image: url("../img/newtraining-logox1.png");
+    background-repeat: no-repeat;
+    background-position: 90px center;
+  }
+}
