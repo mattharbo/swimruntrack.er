@@ -65,7 +65,7 @@ a:active {
     width: 80px;
     height: 80px;
     background-color: #4E5256;
-    background-image: url("../img/settings-logox1.png");
+    background-image: url("../img/settings-logo@x1.png");
     background-repeat: no-repeat;
     background-position: center center;
   }
@@ -83,5 +83,13 @@ a:active {
     background-image: url("../img/newtraining-logox1.png");
     background-repeat: no-repeat;
     background-position: 90px center;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+
+ .settings{
+    background-image: url("../img/settings-logo@x2.png");
+    background-size: 30px 28px;
   }
 }
