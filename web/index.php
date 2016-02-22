@@ -11,11 +11,17 @@
 	</head>
 	<body>
 		<div id="header">
-			<a href="#" class="main-logo"><img src="">Swun.er</a>
+			<a href="#" class="main-logo">Swun.er</a>
 			<a href="./settings" class="settings"></a>
 		</div><!-- Header -->
 		<div id="content">
+			<a href="./amphiman" class="competition-detail-button">Last training for <span class="lightfont">Amphiman Bel.</span></a>	
+			<div id="last-card-session">
+				<div id="card-header">
 
+				</div>
+
+			<div><!-- last-card-session -->
 		</div><!-- Content -->
 		<a href="./newsession" class="new-training-button">New training session</a>
 	</body>
