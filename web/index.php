@@ -18,10 +18,24 @@
 			<a href="./amphiman" class="competition-detail-button">Last training for <span class="lightfont">Amphiman Bel.</span></a>	
 			<div id="last-card-session">
 				<div id="card-header">
-
-				</div>
-
-			<div><!-- last-card-session -->
+					<span class="card-title">Swimming session</span>
+					<div id="calendar">
+						<span class="date">23.02<span>
+					</div><!-- calendar -->
+				</div><!-- card-header -->
+				<div id="card-content">
+					<div id="card-item">
+						<div class="circle"></div><!-- circle -->
+						<p>
+						</p>
+					</div><!-- card-item -->
+					<div id="card-item">
+						<div class="circle"></div><!-- circle -->
+						<p>
+						</p>
+					</div><!-- card-item -->
+				</div><!-- card-content -->
+			</div><!-- last-card-session -->
 		</div><!-- Content -->
 		<a href="./newsession" class="new-training-button">New training session</a>
 	</body>
